@@ -13,6 +13,6 @@ end
 def engage 
   state_log="Captain's Log, star date"
   generate_star_date=(rand(100000) + 400000) / 10.0
-  return state_log + generate_star_date_to.s
+  return state_log + generate_star_date
 end
 
