@@ -10,7 +10,7 @@ def state_log(star_date)
 end
 
 
-def engage (star_date)
+def engage 
   state_log="Captain's Log, star date"
   return state_log
   
