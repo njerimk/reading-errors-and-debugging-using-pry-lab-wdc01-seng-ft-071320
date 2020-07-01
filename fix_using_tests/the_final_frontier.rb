@@ -10,9 +10,9 @@ def state_log(star_date)
 end
 
 
-def engage (star_date) 
-  state_log="Captain's Log, star date#{star_date}"
+def engage 
+  state_log="Captain's Log, star date"
   generate_star_date=(rand(100000) + 400000) / 10.0
   return state_log + generate_star_date
 end
-engage (8/31/1989)
+
