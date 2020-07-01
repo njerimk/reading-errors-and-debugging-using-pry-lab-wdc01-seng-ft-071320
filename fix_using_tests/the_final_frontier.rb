@@ -2,7 +2,7 @@
 'pry'
 
 def generate_star_date
-  (rand(100000) + 400000) / 10.0
+  return (rand(100000) + 400000) / 10.0
 end
 
 def state_log(star_date)
@@ -13,7 +13,7 @@ end
 def engage 
   state_log="Captain's Log, star date"
   generate_star_date=(rand(100000) + 400000) / 10.0
-  star_date=generate_star_date_to.s
+  star_date=generate_star_date.to_s
   state_log + star_date
 end
 
