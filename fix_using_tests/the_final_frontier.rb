@@ -15,4 +15,4 @@ def engage (star_date)
   generate_star_date=(rand(100000) + 400000) / 10.0
   return state_log + generate_star_date
 end
-engage (08/31/1989)
+engage (8/31/1989)
